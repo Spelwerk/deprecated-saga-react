@@ -1,0 +1,48 @@
+{
+  "name": "spelwerk-saga-react",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:princejonn/spelwerk-saga-react.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "connected-react-router": "^4.4.1",
+    "date-fns": "^1.29.0",
+    "eslint-plugin-react": "^7.11.1",
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "node-yaml": "^3.1.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-error-boundaries": "^1.1.4",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^2.1.1",
+    "styled-components": "^3.4.5",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-react-app": "^2.1.0",
+    "jest": "^23.5.0",
+    "redux-devtools": "^3.4.1",
+    "redux-logger": "^3.0.6"
+  }
+}
